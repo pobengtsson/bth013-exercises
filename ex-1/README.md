@@ -23,8 +23,9 @@ $ cd bth013-exercises/ex-1
 * Create a new project by running the following command and making the relevant choices. This is the first part of the exercise where you need to understand what choices to make when initiating a new Vue.js project.
 ```bash
 $ npm init vue@3
+$ npm install
 ```
-* So now you have a initial project. Now, copy the file `exercise1.cy.js` to the `cypress/e2e`.
+* So now you have a initial project. Now, copy the file `exercise1.cy.js` to the `cypress/e2e` folder.
 
 * Build the initially generated code.
 ```bash

@@ -1,5 +1,8 @@
-This exercise is designed to guide you through the various facets of creating and utilizing Vue.js 3 components in a hands-on manner. You will build a simple application that shows and manages a contact list, exploring different Vue.js features and concepts step by step. Focus on understanding each part of the Vue.js component system rather than creating a feature-complete contact list.
-Let's refine the exercise to be more specific about each step's objectives, ensuring that students have clear guidance on what to do and what to achieve. This exercise is structured for hands-on practice with Vue.js 3 components, focusing on their implementation skills without the need for report submission.
+# Exercise 3 - Create a vue application
+
+This exercise is designed to guide you through the various facets of creating and utilizing Vue.js 3 components in a hands-on manner. You will build a simple application that shows and manages a contact list, exploring different Vue.js features and concepts step by step.
+
+Focus on understanding each part of the Vue.js component system rather than creating a feature-complete contact list.
 
 ### Step 1: Initialize Your Vue.js Project
 - Create a new Vue.js project using Vue CLI or Vite.
@@ -10,12 +13,12 @@ Let's refine the exercise to be more specific about each step's objectives, ensu
 - Pass each contact's information to `ContactCard` components using props. Display the name, email, and phone in the `ContactCard`.
 
 ### Step 3: Prop Validation and Default Values
-- In `ContactCard`, define props for `name`, `email`, and `phone`, specifying their types.
+- In `ContactCard`, define props for `name`, `email`, and `phone`. Specify the types of the props.
 - Implement custom validation for the `email` prop to check if it includes an "@" symbol.
 - Set a default value for the `phone` prop, as not all contacts might have a phone number listed.
 
 ### Step 4: Reactive Properties and the Composition API
-- Convert the `ContactCard` component to use the `<script setup>` syntax.
+- Convert the `ContactCard` component to use the `<script setup>` syntax and Composition API.
 - Within `ContactCard`, define a `reactive` property that tracks whether the contact's details are visible or hidden.
 - Add a button in `ContactCard` that toggles the visibility of the contact's details using the reactive property.
 
@@ -33,7 +36,8 @@ Let's refine the exercise to be more specific about each step's objectives, ensu
 
 ### Step 8: Managing Contacts with Reactive State
 - Implement a form in `ContactList` to add new contacts. Use `ref()` for form inputs.
-- Manage the contacts list as a `reactive` object. Ensure that adding a new contact updates the list displayed.
+- Manage the contacts list as a `reactive` object.
+- Ensure that adding a new contact updates the list displayed.
 
 ### Step 9: Composition API Lifecycle Hooks
 - In `ContactList`, use the `onMounted` lifecycle hook to simulate fetching contact data from an API by loading the contacts array after a delay.
@@ -44,4 +48,8 @@ Let's refine the exercise to be more specific about each step's objectives, ensu
 - Display this count in the `ContactList` component, ensuring it updates reactively as contacts are added or removed.
 
 ### Objective:
-By completing these steps, students will practice creating and managing Vue.js components, utilizing props for parent-child communication, implementing reactive data patterns with the Composition API, handling events for dynamic interactivity, and employing slots for flexible component composition. This hands-on exercise aims to solidify understanding and proficiency in managing state, reactivity, and component lifecycle within Vue.js applications, without the need for a formal report or submission process.
+By completing these steps, you will practice creating and managing Vue.js components, utilizing props for parent-child communication, implementing reactive data patterns with the Composition API, handling events for dynamic interactivity, and employing slots for flexible component composition.
+
+This hands-on exercise aims to solidify understanding and proficiency in managing state, reactivity, and component lifecycle within Vue.js applications, without the need for a formal report or submission process.
+
+Have Fun!
