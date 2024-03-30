@@ -30,20 +30,16 @@ Focus on understanding each part of the Vue.js component system rather than crea
 - Add a "Delete" button to `ContactCard` that emits a custom event when clicked, signaling the parent component to remove the contact.
 - In `ContactList`, listen for this event and remove the corresponding contact from the list.
 
-### Step 7: Dynamic Component Rendering
-- Create a new component, `DynamicField`, using the Composition API that renders different types of input fields based on the props it receives (e.g., text, email, phone).
-- Use the `h()` function to dynamically render the correct input field type.
-
-### Step 8: Managing Contacts with Reactive State
+### Step 7: Managing Contacts with Reactive State
 - Implement a form in `ContactList` to add new contacts. Use `ref()` for form inputs.
 - Manage the contacts list as a `reactive` object.
 - Ensure that adding a new contact updates the list displayed.
 
-### Step 9: Composition API Lifecycle Hooks
+### Step 8: Composition API Lifecycle Hooks
 - In `ContactList`, use the `onMounted` lifecycle hook to simulate fetching contact data from an API by loading the contacts array after a delay.
 - Use `watch()` to log a message to the console every time the list of contacts changes, simulating a scenario where changes might need to be saved or further processed.
 
-### Step 10: Explore Advanced Reactivity
+### Step 9: Explore Advanced Reactivity
 - Create a computed property in `ContactList` that returns the count of contacts.
 - Display this count in the `ContactList` component, ensuring it updates reactively as contacts are added or removed.
 
