@@ -1,4 +1,4 @@
-# Exercise: Building a Todo List Manager in Vue.js 3
+# Exercise 4: Building a Todo List Manager in Vue.js 3
 
 ## Purpose
 The purpose of this exercise is for you to learn, practice and explore data and state management in Vue.js and using Pinia.
