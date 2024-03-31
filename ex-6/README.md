@@ -46,7 +46,8 @@ Your task is to modify this base and add features and error handling mechanisms 
 
 - **3.2 Client Side:**
   - Make sure your browser allows cookies for you site. Inspect using the debugger that the cookie is received and has the expected name and values
-  - Add a read only text field in the ui that shows the value of the cookie. When you see that your client code can show the cookie value, experiment by setting different cookie options when sending the cookie from the server. What effect does different settings have?
+  - Add a button and a read only text field, that, when clicking the button, it shows the value of the cookie in the text field.
+  - When you see that your client code can show the cookie value, experiment by setting different cookie options when sending the cookie from the server. What effect does different settings have?
 
 #### Step 4: Handling HTTP Response Codes
 
