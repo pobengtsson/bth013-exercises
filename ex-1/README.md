@@ -22,7 +22,8 @@ cd bth013-exercises/ex-1
 ```
 * Create a new project by running the following command and **making the relevant choices**.
   Start by giving your project a good name (you can just type the name when asked and it will replace the default.)
-  This is the first part of the exercise where you need to understand what choices to make when initiating a new Vue.js project. (HINT: defaults usually works, except that you need to also choose Cypress to be able to run the tests.)
+  This is the first part of the exercise where you need to understand what choices to make when initiating a new Vue.js project.
+  (**HINT**: defaults usually works, except that you need to also choose Cypress to be able to run the tests.)
   ```bash
   npm init vue@3
   ```

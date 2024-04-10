@@ -5,7 +5,9 @@ This exercise is designed to guide you through the various facets of creating an
 Focus on understanding each part of the Vue.js component system rather than creating a feature-complete contact list.
 
 ### Step 1: Initialize Your Vue.js Project
-- Create a new Vue.js project using Vue CLI or Vite.
+- Create a new Vue.js project using `npm init vue@3`.
+  You choose for yourself if you want Cypress tests or not.
+  You will not need Typescript, Router, ESLint, or the other choices.
 - Create a `ContactList` component and a `ContactCard` component. The `ContactList` will render multiple `ContactCard` components.
 
 ### Step 2: Display Static Contacts
