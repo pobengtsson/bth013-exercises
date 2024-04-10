@@ -18,24 +18,33 @@ $ git clone git@github.com:pobengtsson/bth013-exercises.git
 ```
 * Set your working directory to the first exercise folder:
 ```bash
-$ cd bth013-exercises/ex-1
+cd bth013-exercises/ex-1
 ```
-* Create a new project by running the following command and making the relevant choices. This is the first part of the exercise where you need to understand what choices to make when initiating a new Vue.js project.
-```bash
-$ npm init vue@3
-$ npm install
-```
+* Create a new project by running the following command and **making the relevant choices**.
+  Start by giving your project a good name (you can just type the name when asked and it will replace the default.)
+  This is the first part of the exercise where you need to understand what choices to make when initiating a new Vue.js project. (HINT: defaults usually works, except that you need to also choose Cypress to be able to run the tests.)
+  ```bash
+  npm init vue@3
+  ```
+
+* Follow the instructions given at the end of the npm init vue@3 command.
+  1 Change folder to your new project folder (the project name you chose)
+  2 Install all dependencies, like vue and cypress:
+  ```bash
+  npm install
+  ```
+
 * So now you have a initial project. Now, copy the file `exercise1.cy.js` to the `cypress/e2e` folder.
 
-* Build the initially generated code.
-```bash
-$ npm run build
-```
+* Build the initially generated code. You need to do this every time you changed your code before you run the tests in the next step.
+  ```bash
+  npm run build
+  ```
 
 * Run the test cases using the command below. You should a set of failing tests. Did you? Great, well done, you are ready to continue to the first programming step, Step 1:
-```bash
-$ npm run test:e2e
-```
+  ```bash
+  npm run test:e2e
+  ```
 
 * Next, implement each step and continue to next step when the test case passes.
 - preview your app by running: `npm run preview` and open the app in your browser.
