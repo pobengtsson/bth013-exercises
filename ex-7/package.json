@@ -8,16 +8,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.21",
-    "pinia": "^2.1.7",
-    "sass": "^1.72.0",
-    "sass-loader": "^14.1.1",
-    "uuid": "^9.0.1",
-    "vue-router": "^4.3.0",
-    "vuetify": "^3.5.11"
+    "vue": "^3.5.13",
+    "pinia": "^3.0.1",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "uuid": "^11.1.0",
+    "vue-router": "^4.5.0",
+    "vuetify": "^3.7.14"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.6"
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.0"
   }
 }
