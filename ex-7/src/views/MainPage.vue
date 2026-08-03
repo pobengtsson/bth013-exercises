@@ -28,9 +28,9 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { useEventsStore } from '../stores/eventsStore'
+import { useEventStore } from '../stores/eventsStore'
 
-const eventsStore = useEventsStore()
+const eventsStore = useEventStore()
 
 const editingEvent = ref(null)
 const newEvent = ref({
@@ -42,7 +42,7 @@ const newEvent = ref({
   translations: {}
 })
 
-const events = computed(() => eventsStore.events)
+const events = computed(() => eventsStore.eventList)
 
 function addEvent() {
   eventsStore.addEvent({ ...newEvent.value, id: Date.now() })
